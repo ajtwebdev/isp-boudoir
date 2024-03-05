@@ -139,7 +139,7 @@ const NavList = styled.ul`
   }
 `;
 
-const GetQuote = styled((props) => <Link {...props} />)`
+const GetQuote = styled((props) => <Link {...props} target="_blank" />)`
   cursor: pointer;
   display: inline-block;
   font-size: var(--fs-sm);
@@ -360,13 +360,18 @@ export default function HeaderBasic() {
                 </li>
 
                 <li>
-                  <StyledLink href="/book-now">contact</StyledLink>
+                  <StyledLink
+                    href="https://markl.sendly.co.uk/contact"
+                    target="_blank"
+                  >
+                    contact
+                  </StyledLink>
                 </li>
                 <NavCtaMobile>
                   <NavPhone href="tel: (403) 252-2662">
                     +1 (403) 252-2662
                   </NavPhone>
-                  <GetQuote href="/book-now">
+                  <GetQuote href="https://markl.sendly.co.uk/contact">
                     <span>book now &#x2192;</span>
                   </GetQuote>
                 </NavCtaMobile>
@@ -374,7 +379,7 @@ export default function HeaderBasic() {
             </Nav>
             <NavCtaDesktop>
               <NavPhone href="tel: (403) 252-2662">+1 (403) 252-2662</NavPhone>
-              <GetQuote href="/book-now">
+              <GetQuote href="https://markl.sendly.co.uk/contact">
                 <span>book now &#x2192;</span>
               </GetQuote>
             </NavCtaDesktop>
