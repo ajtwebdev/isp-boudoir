@@ -165,7 +165,7 @@ export default function MeetMark() {
             </p>
             <a
               className="button-underline"
-              href="https://staging.innerspiritphoto.com/about#mark"
+              href="https://innerspiritboudoir.com/about"
             >
               more about mark &#x2192;
             </a>
