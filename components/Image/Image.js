@@ -32,7 +32,7 @@ const Image = ({
   };
   return (
     <>
-      <figure className={imageClassName.toString()}>
+      <figure style={{ margin: "10px 0px" }} className={imageClassName.toString()}>
         <div style={{ cursor: "pointer" }} onClick={() => handleLightBox()}>
           <img
             width={width}
