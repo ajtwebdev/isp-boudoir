@@ -244,7 +244,7 @@ export default function Footer() {
                 </LinkElement>
                 <LinkElement>
                   <NextLink
-                    href="https://markl-1.sendly.co.uk/contact"
+                    href="https://app.cyberimpact.com/clients/60137/subscribe-forms/774CDB7E-41C2-4FE2-8B45-3C70F37EF7D1"
                     target="_blank"
                   >
                     Contact & Booking

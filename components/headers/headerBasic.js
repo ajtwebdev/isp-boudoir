@@ -361,7 +361,7 @@ export default function HeaderBasic() {
 
                 <li>
                   <StyledLink
-                    href="https://markl-1.sendly.co.uk/contact"
+                    href="https://app.cyberimpact.com/clients/60137/subscribe-forms/774CDB7E-41C2-4FE2-8B45-3C70F37EF7D1"
                     target="_blank"
                   >
                     contact
@@ -372,7 +372,7 @@ export default function HeaderBasic() {
                     +1 (403) 252-2662
                   </NavPhone>
                   <GetQuote
-                    href="https://markl-1.sendly.co.uk/contact"
+                    href="https://app.cyberimpact.com/clients/60137/subscribe-forms/774CDB7E-41C2-4FE2-8B45-3C70F37EF7D1"
                     target="_blank"
                   >
                     <span>book now &#x2192;</span>
@@ -383,7 +383,7 @@ export default function HeaderBasic() {
             <NavCtaDesktop>
               <NavPhone href="tel: (403) 252-2662">+1 (403) 252-2662</NavPhone>
               <GetQuote
-                href="https://markl-1.sendly.co.uk/contact"
+                href="https://app.cyberimpact.com/clients/60137/subscribe-forms/774CDB7E-41C2-4FE2-8B45-3C70F37EF7D1"
                 target="_blank"
               >
                 <span>book now &#x2192;</span>
