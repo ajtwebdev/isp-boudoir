@@ -99,7 +99,13 @@ export default function Banner({ title, subheader, description, image }) {
           <div>
             <h1 className="">{title}</h1>
           </div>
-          <p>{description}</p>
+          <p style={{
+            fontSize: '24px'
+          }} >{description}</p>
+          {subheader ? <p dangerouslySetInnerHTML={{ __html: subheader }} style={{
+            marginTop: "0rem",
+          }} />: null}
+          
         </Text>
       </Container>
     </Wrapper>
